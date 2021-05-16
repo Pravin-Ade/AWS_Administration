@@ -1,0 +1,9 @@
+{
+    "Version":"1231",
+    "Statement":[
+        {
+            "Action":"*",
+            "Effect":"*"
+        }
+    ]
+}
