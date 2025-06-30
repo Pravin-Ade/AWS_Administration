@@ -20,7 +20,7 @@ IpV4 address: IPv4 or Internet Protocol version 4, address is a 32-bit string of
 
  Binary to decimal converter [Reference Here](https://www.rapidtables.com/convert/number/binary-to-decimal.html)
 
- Networking leraning [Reference here](https://study-ccna.com/)
+ Networking [Reference here](https://study-ccna.com/)
 
 - Two devices can communicate directly if they are in same network.
 
@@ -41,15 +41,15 @@ octects with 0 => 4
 
 *Example*
 
-IP: 192.168.0.11
-SM: 255.255.255.0
-NID: 192.168.0
+IP: 192.168.0.11 \
+SM: 255.255.255.0 \
+NID: 192.168.0 \
 HID: 11
 
 - All the devices in the nework would have same network ID. network id is fixed
 - Network size - 2^(number of host id bits) - 2
 
-HID = 1 octet = 8 bits
+HID = 1 octet = 8 bits \
 Network size = 2^8 - 2 = 256-2 = 254
 
 The two which we have substracted represent two IP's
@@ -74,7 +74,7 @@ n = 8 (number of zeros)
 
 N = 32-8 = 24
 
-SM: 11111111.11111111.11111111.00000000
+SM: 11111111.11111111.11111111.00000000 \
 SM: 255.255.255.0
 
 **Example 2. A network of 500 devices**
@@ -85,7 +85,7 @@ n = 15
 
 N = 32 - 15 = 17
 
-SM = 11111111.11111111.10000000.00000000
+SM = 11111111.11111111.10000000.00000000 \
 Sm: 255.255.128.0
 
 - Public network
@@ -94,8 +94,8 @@ Sm: 255.255.128.0
 ## CIDR Notation
 - is a method of public IP address assignment
 - The CIDR notation is represent as x.x.x.x/N where N = number of 1's i.e network ID.
-- to deal with the IPv4 address exhaustion problem
-- to slow down the growth of routing tables on Internet routers
+- To deal with the IPv4 address exhaustion problem
+- To slow down the growth of routing tables on Internet routers
 
 Before CIDR, public IP addresses were assigned based on the class boundaries:
 
@@ -241,3 +241,4 @@ Subnet  SM  11111111.11111111.11000000.00000000
 192.168.00000000.  => 192.168.0.0/18
 
 192.168.01000000.  => 192.168.64.0/18
+

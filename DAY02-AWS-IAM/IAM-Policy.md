@@ -77,7 +77,7 @@ AWS organization service control policy used to define the maximum permissions f
 - ACL's are used to control which principal in other account can access the resource to which the ACL is attach.
 - Across account permissions.
 
-*Note*: Google IAM Policy grammar.
+*Note*: IAM Policy grammar. [Refer Here](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_grammar.html)
 
 Anything with ? is an optional (IAM Policy Grammar document)
 
@@ -120,7 +120,7 @@ Q. Write EC2 ReadOnlyPolicy.json policy
             ]
         }
 
-Refer: AWS Policy simulator and AWS Policy Generator
+Refer: AWS Policy simulator and AWS Policy Generator [Refer Her](https://awspolicygen.s3.amazonaws.com/policygen.html)
 
 - In IAM Policy, if there is an action which is not specified is denied by default.
 - ARN - Amazon Resource name
