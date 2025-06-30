@@ -1,4 +1,9 @@
-## Networking
+## AWS VPC (Virtual Private cloud)
+
+AWS VPC (Virtual Private cloud) enables us to launch the AWS resources in the virtual network. This virtual network resembles the traditional network
+
+A virtual network dedicated to our AWS Account in a specific region \
+AWS creates one default vpc in every region 
 
 ### Concepts
 - IP Address (IpV4 & IpV6): IPv4 or Internet Protocol version 4, address is a 32-bit string of numbers separated by periods
